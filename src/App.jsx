@@ -1,10 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router";
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Minimal-Tech-Blog</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
