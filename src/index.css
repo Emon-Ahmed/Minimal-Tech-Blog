@@ -1,1 +1,10 @@
+@font-face {
+  font-family: Apercu;
+  src: url("../src/assets/font/apercu_regular_pro.otf");
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-apercu: Apercu;
+}

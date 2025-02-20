@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../components/ui/Header";
+import MainBanner from "../components/banner/MainBanner";
 
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Minimal-Tech-Blog</h1>
+      <Header />
+      <MainBanner />
     </>
   );
 }
