@@ -8,7 +8,7 @@ export default function MainBanner() {
     <div className="bg-[#FAFBFC]">
       <div
         style={{ backgroundImage: `url(${BannerBG})` }}
-        className=" bg-cover bg-no-repeat bg-center"
+        className="bg-cover bg-no-repeat bg-center"
       >
         <div className="p-20 flex  justify-center ">
           <div className="container font-apercu text-center">
@@ -18,7 +18,7 @@ export default function MainBanner() {
                 <img src={aiIcon} alt="AI Icon" className="w-4 h-4 mx-0.5" />
               </div>
               <div className="text-6xl  font-bold py-4">News and insights</div>
-              <div className="w-1/2 mx-auto text-lg text-[#11111199]">
+              <div className="w-1/2 mx-auto text-lg text-[#111111]/60">
                 Learn about cryptocurrency, NFTs, and blockchain, discover our
                 latest product updates, partnership announcements, user stories,
                 and more.
