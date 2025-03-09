@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/images/logo.png";
+import { Link } from "react-router";
 
 export default function Header() {
   return (
@@ -16,10 +17,15 @@ export default function Header() {
           <div className="px-7 hover:underline">Contact</div>
         </div>
         <div className="font-apercu text-sm flex items-center cursor-pointer">
-          <div className="px-7 hover:underline">Log in</div>
-          <div className="text-white rounded bg-[#444BFF] py-2 px-6">
+          <Link to="/auth" className="px-7 hover:underline">
+            Log in
+          </Link>
+          <Link
+            to="/auth/signup"
+            className="text-white rounded bg-[#444BFF] py-2 px-6"
+          >
             Sign Up
-          </div>
+          </Link>
         </div>
       </div>
     </div>
